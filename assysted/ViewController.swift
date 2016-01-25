@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var loginButton: SwiftyButton!
     @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var registerButton: SwiftyButton!
+    @IBOutlet var loginView: UIView!
 
 
     override func viewDidLoad() {

@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		14B702ED1C55BCBF001120AF /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B702EC1C55BCBF001120AF /* Testing.m */; };
+		14B702EF1C55E96B001120AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B702EE1C55E96B001120AF /* RegisterViewController.swift */; };
+		14B702F51C55EF8E001120AF /* office-meeting-business-partners-cooperation.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B702F41C55EF8E001120AF /* office-meeting-business-partners-cooperation.jpg */; };
+		14B702F71C55F015001120AF /* working-in-a-group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B702F61C55F015001120AF /* working-in-a-group.jpg */; };
 		14EE2F2D1C549D6A0012FA1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EE2F2C1C549D6A0012FA1C /* AppDelegate.swift */; };
 		14EE2F2F1C549D6A0012FA1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EE2F2E1C549D6A0012FA1C /* ViewController.swift */; };
 		14EE2F321C549D6A0012FA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EE2F301C549D6A0012FA1C /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 /* Begin PBXFileReference section */
 		14B702EB1C55BCBF001120AF /* assysted-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "assysted-Bridging-Header.h"; sourceTree = "<group>"; };
 		14B702EC1C55BCBF001120AF /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
+		14B702EE1C55E96B001120AF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		14B702F41C55EF8E001120AF /* office-meeting-business-partners-cooperation.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "office-meeting-business-partners-cooperation.jpg"; sourceTree = "<group>"; };
+		14B702F61C55F015001120AF /* working-in-a-group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "working-in-a-group.jpg"; sourceTree = "<group>"; };
 		14EE2F291C549D6A0012FA1C /* assysted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assysted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EE2F2C1C549D6A0012FA1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14EE2F2E1C549D6A0012FA1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -107,9 +113,12 @@
 		14EE2F2B1C549D6A0012FA1C /* assysted */ = {
 			isa = PBXGroup;
 			children = (
+				14B702F61C55F015001120AF /* working-in-a-group.jpg */,
+				14B702F41C55EF8E001120AF /* office-meeting-business-partners-cooperation.jpg */,
 				14EE2F2C1C549D6A0012FA1C /* AppDelegate.swift */,
 				14EE2F2E1C549D6A0012FA1C /* ViewController.swift */,
 				14EE2F301C549D6A0012FA1C /* Main.storyboard */,
+				14B702EE1C55E96B001120AF /* RegisterViewController.swift */,
 				14EE2F331C549D6A0012FA1C /* Assets.xcassets */,
 				14EE2F351C549D6A0012FA1C /* LaunchScreen.storyboard */,
 				14EE2F381C549D6A0012FA1C /* Info.plist */,
@@ -261,8 +270,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14B702F71C55F015001120AF /* working-in-a-group.jpg in Resources */,
 				14EE2F371C549D6A0012FA1C /* LaunchScreen.storyboard in Resources */,
 				14EE2F341C549D6A0012FA1C /* Assets.xcassets in Resources */,
+				14B702F51C55EF8E001120AF /* office-meeting-business-partners-cooperation.jpg in Resources */,
 				14EE2F321C549D6A0012FA1C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +350,7 @@
 				14B702ED1C55BCBF001120AF /* Testing.m in Sources */,
 				14EE2F2F1C549D6A0012FA1C /* ViewController.swift in Sources */,
 				14EE2F2D1C549D6A0012FA1C /* AppDelegate.swift in Sources */,
+				14B702EF1C55E96B001120AF /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
