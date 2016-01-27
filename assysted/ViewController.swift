@@ -33,6 +33,11 @@ class ViewController: UIViewController {
         registerButton.shadowHeight     = 0;
         registerButton.cornerRadius     = 5;
     }
+    
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated);
+        self.navigationController?.navigationBarHidden = true;
+    }
 
     
     @IBAction func loginActionTemp(sender: AnyObject) {

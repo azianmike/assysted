@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         Parse.setApplicationId("CvxBmAdkyYrusuS8avsjL4CSsWLqnmA43tMxsbkE", clientKey:"lRVp537GaKBBhSBS7BcxJ2cKxtES6MlkGmZY8HH8");
+//                UINavigationBar.appearance().barTintColor = UIColor.blueColor();
         return true
     }
 
