@@ -12,6 +12,7 @@
 		14B702ED1C55BCBF001120AF /* Testing.m in Sources */ = {isa = PBXBuildFile; fileRef = 14B702EC1C55BCBF001120AF /* Testing.m */; };
 		14B702EF1C55E96B001120AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B702EE1C55E96B001120AF /* RegisterViewController.swift */; };
 		14B702F71C55F015001120AF /* working-in-a-group.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 14B702F61C55F015001120AF /* working-in-a-group.jpg */; };
+		14D28F9F1C588F3E00F895FF /* DGRunkeeperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14D28F9E1C588F3E00F895FF /* DGRunkeeperSwitch.swift */; };
 		14EE2F2D1C549D6A0012FA1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EE2F2C1C549D6A0012FA1C /* AppDelegate.swift */; };
 		14EE2F2F1C549D6A0012FA1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14EE2F2E1C549D6A0012FA1C /* ViewController.swift */; };
 		14EE2F321C549D6A0012FA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14EE2F301C549D6A0012FA1C /* Main.storyboard */; };
@@ -46,6 +47,7 @@
 		14B702EC1C55BCBF001120AF /* Testing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Testing.m; sourceTree = "<group>"; };
 		14B702EE1C55E96B001120AF /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		14B702F61C55F015001120AF /* working-in-a-group.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "working-in-a-group.jpg"; sourceTree = "<group>"; };
+		14D28F9E1C588F3E00F895FF /* DGRunkeeperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGRunkeeperSwitch.swift; sourceTree = "<group>"; };
 		14EE2F291C549D6A0012FA1C /* assysted.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = assysted.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14EE2F2C1C549D6A0012FA1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		14EE2F2E1C549D6A0012FA1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -119,6 +121,7 @@
 				14EE2F2C1C549D6A0012FA1C /* AppDelegate.swift */,
 				144C38F31C587FAB00D2B2DC /* AppColors.swift */,
 				14EE2F2E1C549D6A0012FA1C /* ViewController.swift */,
+				14D28F9E1C588F3E00F895FF /* DGRunkeeperSwitch.swift */,
 				14EE2F301C549D6A0012FA1C /* Main.storyboard */,
 				144C38F51C58806A00D2B2DC /* HomeViewController.swift */,
 				14B702EE1C55E96B001120AF /* RegisterViewController.swift */,
@@ -352,6 +355,7 @@
 				14B702ED1C55BCBF001120AF /* Testing.m in Sources */,
 				14EE2F2F1C549D6A0012FA1C /* ViewController.swift in Sources */,
 				14EE2F2D1C549D6A0012FA1C /* AppDelegate.swift in Sources */,
+				14D28F9F1C588F3E00F895FF /* DGRunkeeperSwitch.swift in Sources */,
 				144C38F41C587FAB00D2B2DC /* AppColors.swift in Sources */,
 				14B702EF1C55E96B001120AF /* RegisterViewController.swift in Sources */,
 				144C38F61C58806A00D2B2DC /* HomeViewController.swift in Sources */,

@@ -234,6 +234,7 @@
                         <viewControllerLayoutGuide type="bottom" id="Qlo-da-PoW"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="zqv-yn-i6h">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TESTING" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFh-in-CDg">
@@ -468,7 +469,6 @@
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="b5P-2M-R8P"/>
-                        <segue destination="OCC-AR-FZW" kind="relationship" relationship="IBSegueTriggerManual" id="Rhr-m0-awc"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ywp-2M-Xfx" userLabel="First Responder" sceneMemberID="firstResponder"/>
