@@ -24,7 +24,6 @@ class RegisterViewController: UIViewController {
     
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated);
-//                self.navigationController?.navigationBarHidden = false;
         backButton.setLeftBarButtonItem(UIBarButtonItem(barButtonSystemItem: .Done, target: self, action: "dismiss:"), animated: true);
 
     }

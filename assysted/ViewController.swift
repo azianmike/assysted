@@ -21,13 +21,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        loginButton.buttonColor = UIColor(red: 52/255, green: 152/255, blue: 219/255, alpha: 1)
+        loginButton.buttonColor = getMainColor()
         loginButton.shadowColor = UIColor(red: 41/255, green: 128/255, blue: 185/255, alpha: 1)
 
         loginButton.shadowHeight     = 0;
         loginButton.cornerRadius     = 5;
         
-        registerButton.buttonColor = UIColor(red: 52/255, green: 219/255, blue: 152/255, alpha: 1)
+        registerButton.buttonColor = getSecondaryColor()
         registerButton.shadowColor = UIColor(red: 41/255, green: 128/255, blue: 185/255, alpha: 1)
         
         registerButton.shadowHeight     = 0;
@@ -38,15 +38,25 @@ class ViewController: UIViewController {
         super.viewWillAppear(animated);
         self.navigationController?.navigationBarHidden = true;
     }
-
     
+    @IBAction func editTextReturn(sender: UITextField) {
+        login()
+    }
     @IBAction func loginActionTemp(sender: AnyObject) {
+        login()
         
+        
+    }
+    
+    func login()
+    {
         func loginBlock( user:PFUser?, loginError: NSError? )
         {
             if user != nil
             {
-                
+                let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                let vc = storyboard.instantiateViewControllerWithIdentifier("HomeViewController")
+                self.navigationController?.pushViewController(vc, animated: true);
             }
             else
             {
@@ -60,13 +70,12 @@ class ViewController: UIViewController {
                 
             }
         }
-
+        
         
         PFUser.logInWithUsernameInBackground(emailTextField.text!, password: passwordTextField.text!){
             (user: PFUser?, error: NSError?) -> Void in
             loginBlock(user, loginError: error)
         }
-        
     }
     
     override func didReceiveMemoryWarning() {
